@@ -69,7 +69,22 @@ const account3 = {
   locale: "ar-EG",
 };
 
-const accounts = [account1, account2, account3];
+const account4 = {
+  owner: "Abdelrahman Faraj",
+  movements: [3, 4],
+  interestRate: 0, // %
+  pin: 7777,
+
+  movementsDates: [
+    "2025-01-18T21:31:17.178Z",
+    "2025-01-15T07:42:02.383Z",
+  ],
+  currency: "EUR",
+  locale: "en-US", // de-DE
+};
+
+
+const accounts = [account1, account2, account3, account4];
 
 /////////////////////////////////////////////////
 // Elements
